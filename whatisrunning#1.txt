@@ -45,4 +45,4 @@
 		sys.Dm_exec_text_query_plan(r.plan_handle, r.statement_start_offset, r.statement_end_offset) sqlplan
 		WHERE r.status <> 'background' 
 		ORDER BY r.session_id 
-		go 
+		 go 
